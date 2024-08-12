@@ -1,0 +1,4 @@
+Compiling a large high-level Language program into machine language  can take
+considerable computer time. Interpreters execute high-level language programs
+directly. Interpreters avoids compilation delays, but your code runs slower
+than the compiled code. 
