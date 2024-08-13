@@ -1,0 +1,39 @@
+-----------------------------
+PHASE-1 -- CREATING A PROGRAM
+----------------------------
+Consits of editing a file in an editor program.
+
+------------------------------------------------------------
+PHASE-2 AND PHASE 3 Preprosessing and compiling a C program
+------------------------------------------------------------
+The compiler translates the C program into machine-language code. In a C
+system, the compilation command invokes a prepocessor program before the
+compilers translation phase begins.
+
+A SYNTAX ERROR --> occurs when the compiler cannot recognize a statement
+because it violates the language rules. Syntax error is also called COMPILE
+ERRORS or COMPILE-TIME ERROR.
+
+------------------------------------------------------
+PHASE-4 LINKING
+-----------------------------------------------------
+A linker links a programs object code with the code for themissing functions to
+produce an executable image. On typical linux environment, the command to
+compiler and link a program is GCC (the GNU C Compiler). To compiler or link a
+program 
+
+        gcc -std=c18 <filename.c>
+
+
+----------------------------------------------------------
+PHASE -5 LOADING
+----------------------------------------------------------
+Before a program can execute, the operating system must load it into memory.
+The loader takes te executable image from disk and transfer it to memory.
+
+
+-----------------------------------------------------------
+PHASE -6 EXECUTION
+-----------------------------------------------------------
+Computer under the control of its CPU, executes the program one instruction at
+a time.
