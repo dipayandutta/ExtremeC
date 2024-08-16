@@ -1,0 +1,34 @@
+DNF Optimization
+-------------------
+echo 'fastestmirror=1' | sudo tee -a /etc/dnf/dnf.conf
+echo 'max_parallel_downloads=10' | sudo tee -a /etc/dnf/dnf.conf
+echo 'deltarpm=true' | sudo tee -a /etc/dnf/dnf.conf
+
+
+update bash
+-----------------
+
+sudo dnf update 
+sudo dnf upgrade
+
+sudo dnf groupinstall "Development Tools"
+RPM fusion 
+=============
+sudo dnf install \
+https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm \
+https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+
+
+ffmpeg
+-------------
+sudo dnf swap ffmpeg-free ffmpeg --allowerasing
+sudo dnf groupupdate \
+multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
+
+sudo dnf groupupdate sound-and-video
+
+hardware Accelarator
+=========================
+sudo dnf install intel-media-driver
+
