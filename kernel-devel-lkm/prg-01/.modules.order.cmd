@@ -1,0 +1,1 @@
+cmd_/home/kernel-x/work/c-adv/ExtremeC/kernel-devel-lkm/prg-01/modules.order := {   echo /home/kernel-x/work/c-adv/ExtremeC/kernel-devel-lkm/prg-01/main.ko; :; } | awk '!x[$$0]++' - > /home/kernel-x/work/c-adv/ExtremeC/kernel-devel-lkm/prg-01/modules.order

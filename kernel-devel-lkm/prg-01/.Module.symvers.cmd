@@ -1,0 +1,1 @@
+cmd_/home/kernel-x/work/c-adv/ExtremeC/kernel-devel-lkm/prg-01/Module.symvers := sed 's/\.ko$$/\.o/' /home/kernel-x/work/c-adv/ExtremeC/kernel-devel-lkm/prg-01/modules.order | scripts/mod/modpost -m -a  -o /home/kernel-x/work/c-adv/ExtremeC/kernel-devel-lkm/prg-01/Module.symvers -e -i Module.symvers   -T -

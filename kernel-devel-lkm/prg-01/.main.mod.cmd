@@ -1,0 +1,1 @@
+cmd_/home/kernel-x/work/c-adv/ExtremeC/kernel-devel-lkm/prg-01/main.mod := printf '%s\n'   main.o | awk '!x[$$0]++ { print("/home/kernel-x/work/c-adv/ExtremeC/kernel-devel-lkm/prg-01/"$$0) }' > /home/kernel-x/work/c-adv/ExtremeC/kernel-devel-lkm/prg-01/main.mod
