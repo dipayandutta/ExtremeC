@@ -1,0 +1,1 @@
+gcc -std=c18 initScreen.c -lncurses
