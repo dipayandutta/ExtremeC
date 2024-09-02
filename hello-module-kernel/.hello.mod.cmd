@@ -1,1 +1,1 @@
-cmd_/home/kernel-x/work/kernel-devel/hello-module-kernel/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/kernel-x/work/kernel-devel/hello-module-kernel/"$$0) }' > /home/kernel-x/work/kernel-devel/hello-module-kernel/hello.mod
+cmd_/home/kernel-x/work/c-adv/ExtremeC/hello-module-kernel/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/kernel-x/work/c-adv/ExtremeC/hello-module-kernel/"$$0) }' > /home/kernel-x/work/c-adv/ExtremeC/hello-module-kernel/hello.mod

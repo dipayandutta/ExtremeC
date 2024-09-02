@@ -1,1 +1,1 @@
-/home/kernel-x/work/kernel-devel/hello-module-kernel/hello.o
+/home/kernel-x/work/c-adv/ExtremeC/hello-module-kernel/hello.o
